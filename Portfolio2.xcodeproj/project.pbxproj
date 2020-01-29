@@ -7,14 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		05118E4323E05FFB004B4E25 /* biale.png in Resources */ = {isa = PBXBuildFile; fileRef = 05118E4223E05FFA004B4E25 /* biale.png */; };
+		056380F423E0381300E355CC /* cropped_glowne.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 056380F323E0381300E355CC /* cropped_glowne.jpg */; };
+		056380F623E038CE00E355CC /* poprawione.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 056380F523E038CE00E355CC /* poprawione.jpg */; };
+		056380FD23E03A2700E355CC /* london_eye.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 056380FC23E03A2700E355CC /* london_eye.jpg */; };
+		056380FF23E03A5A00E355CC /* bokeh_roslina.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 056380FE23E03A5A00E355CC /* bokeh_roslina.jpg */; };
+		0563810123E03A9100E355CC /* astro1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0563810023E03A9100E355CC /* astro1.jpg */; };
+		0563810323E03B6500E355CC /* portret_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0563810223E03B6500E355CC /* portret_3.jpg */; };
+		0563810523E03BB900E355CC /* portret_4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0563810423E03BB900E355CC /* portret_4.jpg */; };
+		0563810723E03BEC00E355CC /* Nature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0563810623E03BEC00E355CC /* Nature.swift */; };
+		0563810923E03C3700E355CC /* zboze_pole.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0563810823E03C3700E355CC /* zboze_pole.jpg */; };
+		0563810B23E03C8000E355CC /* las_bambus.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 0563810A23E03C8000E355CC /* las_bambus.jpeg */; };
+		0563810D23E03CCE00E355CC /* Architecture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0563810C23E03CCE00E355CC /* Architecture.swift */; };
+		0563810F23E03E4100E355CC /* abstrakcja.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 0563810E23E03E4100E355CC /* abstrakcja.jpeg */; };
+		0563811123E03EB000E355CC /* tower_bridge.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0563811023E03EB000E355CC /* tower_bridge.jpg */; };
+		0563811323E03F1F00E355CC /* Astrophotography.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0563811223E03F1F00E355CC /* Astrophotography.swift */; };
+		0563811523E03F5100E355CC /* astro3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 0563811423E03F5100E355CC /* astro3.jpeg */; };
+		0563811723E03F5800E355CC /* astro2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 0563811623E03F5800E355CC /* astro2.jpeg */; };
+		0563811923E0405800E355CC /* Painting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0563811823E0405800E355CC /* Painting.swift */; };
+		0563812123E040C900E355CC /* swieca.png in Resources */ = {isa = PBXBuildFile; fileRef = 0563811B23E040C800E355CC /* swieca.png */; };
+		0563812223E040C900E355CC /* droga.png in Resources */ = {isa = PBXBuildFile; fileRef = 0563811C23E040C800E355CC /* droga.png */; };
+		0563812323E040C900E355CC /* lisc.png in Resources */ = {isa = PBXBuildFile; fileRef = 0563811D23E040C800E355CC /* lisc.png */; };
+		0563812423E040C900E355CC /* serce.png in Resources */ = {isa = PBXBuildFile; fileRef = 0563811E23E040C800E355CC /* serce.png */; };
+		0563812523E040C900E355CC /* drzewo.png in Resources */ = {isa = PBXBuildFile; fileRef = 0563811F23E040C800E355CC /* drzewo.png */; };
+		0563812623E040C900E355CC /* lotos.png in Resources */ = {isa = PBXBuildFile; fileRef = 0563812023E040C900E355CC /* lotos.png */; };
+		0563812823E043CF00E355CC /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0563812723E043CF00E355CC /* Contact.swift */; };
+		0563812A23E04A5C00E355CC /* contact.png in Resources */ = {isa = PBXBuildFile; fileRef = 0563812923E04A5C00E355CC /* contact.png */; };
 		0568A08A23DCF906007D3AB5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0568A08923DCF906007D3AB5 /* AppDelegate.swift */; };
 		0568A08C23DCF906007D3AB5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0568A08B23DCF906007D3AB5 /* SceneDelegate.swift */; };
-		0568A08E23DCF906007D3AB5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0568A08D23DCF906007D3AB5 /* ContentView.swift */; };
+		0568A08E23DCF906007D3AB5 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0568A08D23DCF906007D3AB5 /* Home.swift */; };
 		0568A09023DCF908007D3AB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0568A08F23DCF908007D3AB5 /* Assets.xcassets */; };
 		0568A09323DCF908007D3AB5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0568A09223DCF908007D3AB5 /* Preview Assets.xcassets */; };
 		0568A09623DCF908007D3AB5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0568A09423DCF908007D3AB5 /* LaunchScreen.storyboard */; };
 		0568A0A123DCF908007D3AB5 /* Portfolio2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0568A0A023DCF908007D3AB5 /* Portfolio2Tests.swift */; };
 		0568A0AC23DCF908007D3AB5 /* Portfolio2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0568A0AB23DCF908007D3AB5 /* Portfolio2UITests.swift */; };
+		0568A0BD23DD0F5E007D3AB5 /* Photos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0568A0BC23DD0F5E007D3AB5 /* Photos.swift */; };
+		0568A0BF23DD12D1007D3AB5 /* portret_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0568A0BE23DD12D1007D3AB5 /* portret_1.jpg */; };
+		0568A0C123DD12F3007D3AB5 /* portret_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0568A0C023DD12F3007D3AB5 /* portret_2.jpg */; };
+		057DDFA023DF10E600F13664 /* AboutMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 057DDF9F23DF10E600F13664 /* AboutMe.swift */; };
+		05A35E9023DFB36600BD2E59 /* Portraits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A35E8F23DFB36600BD2E59 /* Portraits.swift */; };
+		05A35E9223DFB39F00BD2E59 /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A35E9123DFB39F00BD2E59 /* PageView.swift */; };
+		05A35E9423DFB43500BD2E59 /* SwiperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A35E9323DFB43500BD2E59 /* SwiperView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +68,36 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		05118E4223E05FFA004B4E25 /* biale.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = biale.png; sourceTree = "<group>"; };
+		056380F323E0381300E355CC /* cropped_glowne.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cropped_glowne.jpg; sourceTree = "<group>"; };
+		056380F523E038CE00E355CC /* poprawione.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = poprawione.jpg; sourceTree = "<group>"; };
+		056380FC23E03A2700E355CC /* london_eye.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = london_eye.jpg; sourceTree = "<group>"; };
+		056380FE23E03A5A00E355CC /* bokeh_roslina.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bokeh_roslina.jpg; sourceTree = "<group>"; };
+		0563810023E03A9100E355CC /* astro1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = astro1.jpg; sourceTree = "<group>"; };
+		0563810223E03B6500E355CC /* portret_3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = portret_3.jpg; sourceTree = "<group>"; };
+		0563810423E03BB900E355CC /* portret_4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = portret_4.jpg; sourceTree = "<group>"; };
+		0563810623E03BEC00E355CC /* Nature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nature.swift; sourceTree = "<group>"; };
+		0563810823E03C3700E355CC /* zboze_pole.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = zboze_pole.jpg; sourceTree = "<group>"; };
+		0563810A23E03C8000E355CC /* las_bambus.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = las_bambus.jpeg; sourceTree = "<group>"; };
+		0563810C23E03CCE00E355CC /* Architecture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Architecture.swift; sourceTree = "<group>"; };
+		0563810E23E03E4100E355CC /* abstrakcja.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = abstrakcja.jpeg; sourceTree = "<group>"; };
+		0563811023E03EB000E355CC /* tower_bridge.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tower_bridge.jpg; sourceTree = "<group>"; };
+		0563811223E03F1F00E355CC /* Astrophotography.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Astrophotography.swift; sourceTree = "<group>"; };
+		0563811423E03F5100E355CC /* astro3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = astro3.jpeg; sourceTree = "<group>"; };
+		0563811623E03F5800E355CC /* astro2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = astro2.jpeg; sourceTree = "<group>"; };
+		0563811823E0405800E355CC /* Painting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Painting.swift; sourceTree = "<group>"; };
+		0563811B23E040C800E355CC /* swieca.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = swieca.png; sourceTree = "<group>"; };
+		0563811C23E040C800E355CC /* droga.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = droga.png; sourceTree = "<group>"; };
+		0563811D23E040C800E355CC /* lisc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lisc.png; sourceTree = "<group>"; };
+		0563811E23E040C800E355CC /* serce.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = serce.png; sourceTree = "<group>"; };
+		0563811F23E040C800E355CC /* drzewo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = drzewo.png; sourceTree = "<group>"; };
+		0563812023E040C900E355CC /* lotos.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lotos.png; sourceTree = "<group>"; };
+		0563812723E043CF00E355CC /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		0563812923E04A5C00E355CC /* contact.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = contact.png; sourceTree = "<group>"; };
 		0568A08623DCF906007D3AB5 /* Portfolio2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Portfolio2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0568A08923DCF906007D3AB5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0568A08B23DCF906007D3AB5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0568A08D23DCF906007D3AB5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0568A08D23DCF906007D3AB5 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		0568A08F23DCF908007D3AB5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0568A09223DCF908007D3AB5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0568A09523DCF908007D3AB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +108,13 @@
 		0568A0A723DCF908007D3AB5 /* Portfolio2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Portfolio2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0568A0AB23DCF908007D3AB5 /* Portfolio2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Portfolio2UITests.swift; sourceTree = "<group>"; };
 		0568A0AD23DCF908007D3AB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0568A0BC23DD0F5E007D3AB5 /* Photos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photos.swift; sourceTree = "<group>"; };
+		0568A0BE23DD12D1007D3AB5 /* portret_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = portret_1.jpg; sourceTree = "<group>"; };
+		0568A0C023DD12F3007D3AB5 /* portret_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = portret_2.jpg; sourceTree = "<group>"; };
+		057DDF9F23DF10E600F13664 /* AboutMe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutMe.swift; sourceTree = "<group>"; };
+		05A35E8F23DFB36600BD2E59 /* Portraits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Portraits.swift; sourceTree = "<group>"; };
+		05A35E9123DFB39F00BD2E59 /* PageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
+		05A35E9323DFB43500BD2E59 /* SwiperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiperView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,10 +142,74 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		056380F723E0396000E355CC /* Glowne */ = {
+			isa = PBXGroup;
+			children = (
+				056380F323E0381300E355CC /* cropped_glowne.jpg */,
+				056380F523E038CE00E355CC /* poprawione.jpg */,
+			);
+			path = Glowne;
+			sourceTree = "<group>";
+		};
+		056380F823E0396B00E355CC /* Portret */ = {
+			isa = PBXGroup;
+			children = (
+				0563810423E03BB900E355CC /* portret_4.jpg */,
+				0568A0C023DD12F3007D3AB5 /* portret_2.jpg */,
+				0568A0BE23DD12D1007D3AB5 /* portret_1.jpg */,
+				0563810223E03B6500E355CC /* portret_3.jpg */,
+			);
+			path = Portret;
+			sourceTree = "<group>";
+		};
+		056380F923E0397500E355CC /* Natura */ = {
+			isa = PBXGroup;
+			children = (
+				0563810823E03C3700E355CC /* zboze_pole.jpg */,
+				0563810A23E03C8000E355CC /* las_bambus.jpeg */,
+				056380FE23E03A5A00E355CC /* bokeh_roslina.jpg */,
+			);
+			path = Natura;
+			sourceTree = "<group>";
+		};
+		056380FA23E0397B00E355CC /* Architektura */ = {
+			isa = PBXGroup;
+			children = (
+				056380FC23E03A2700E355CC /* london_eye.jpg */,
+				0563811023E03EB000E355CC /* tower_bridge.jpg */,
+				0563810E23E03E4100E355CC /* abstrakcja.jpeg */,
+			);
+			path = Architektura;
+			sourceTree = "<group>";
+		};
+		056380FB23E0399F00E355CC /* Astrofotografia */ = {
+			isa = PBXGroup;
+			children = (
+				0563811423E03F5100E355CC /* astro3.jpeg */,
+				0563810023E03A9100E355CC /* astro1.jpg */,
+				0563811623E03F5800E355CC /* astro2.jpeg */,
+			);
+			path = Astrofotografia;
+			sourceTree = "<group>";
+		};
+		0563811A23E0407900E355CC /* Malarstwo */ = {
+			isa = PBXGroup;
+			children = (
+				0563811F23E040C800E355CC /* drzewo.png */,
+				0563811D23E040C800E355CC /* lisc.png */,
+				0563812023E040C900E355CC /* lotos.png */,
+				0563811B23E040C800E355CC /* swieca.png */,
+				0563811E23E040C800E355CC /* serce.png */,
+				0563811C23E040C800E355CC /* droga.png */,
+			);
+			path = Malarstwo;
+			sourceTree = "<group>";
+		};
 		0568A07D23DCF906007D3AB5 = {
 			isa = PBXGroup;
 			children = (
 				0568A08823DCF906007D3AB5 /* Portfolio2 */,
+				0568A0B923DCFCEC007D3AB5 /* Resources */,
 				0568A09F23DCF908007D3AB5 /* Portfolio2Tests */,
 				0568A0AA23DCF908007D3AB5 /* Portfolio2UITests */,
 				0568A08723DCF906007D3AB5 /* Products */,
@@ -101,7 +231,17 @@
 			children = (
 				0568A08923DCF906007D3AB5 /* AppDelegate.swift */,
 				0568A08B23DCF906007D3AB5 /* SceneDelegate.swift */,
-				0568A08D23DCF906007D3AB5 /* ContentView.swift */,
+				0568A08D23DCF906007D3AB5 /* Home.swift */,
+				0563812723E043CF00E355CC /* Contact.swift */,
+				057DDF9F23DF10E600F13664 /* AboutMe.swift */,
+				0568A0BC23DD0F5E007D3AB5 /* Photos.swift */,
+				05A35E8F23DFB36600BD2E59 /* Portraits.swift */,
+				0563810623E03BEC00E355CC /* Nature.swift */,
+				0563810C23E03CCE00E355CC /* Architecture.swift */,
+				0563811223E03F1F00E355CC /* Astrophotography.swift */,
+				0563811823E0405800E355CC /* Painting.swift */,
+				05A35E9123DFB39F00BD2E59 /* PageView.swift */,
+				05A35E9323DFB43500BD2E59 /* SwiperView.swift */,
 				0568A08F23DCF908007D3AB5 /* Assets.xcassets */,
 				0568A09423DCF908007D3AB5 /* LaunchScreen.storyboard */,
 				0568A09723DCF908007D3AB5 /* Info.plist */,
@@ -134,6 +274,21 @@
 				0568A0AD23DCF908007D3AB5 /* Info.plist */,
 			);
 			path = Portfolio2UITests;
+			sourceTree = "<group>";
+		};
+		0568A0B923DCFCEC007D3AB5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0563812923E04A5C00E355CC /* contact.png */,
+				05118E4223E05FFA004B4E25 /* biale.png */,
+				0563811A23E0407900E355CC /* Malarstwo */,
+				056380FB23E0399F00E355CC /* Astrofotografia */,
+				056380FA23E0397B00E355CC /* Architektura */,
+				056380F923E0397500E355CC /* Natura */,
+				056380F823E0396B00E355CC /* Portret */,
+				056380F723E0396000E355CC /* Glowne */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -240,8 +395,31 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0563811723E03F5800E355CC /* astro2.jpeg in Resources */,
 				0568A09623DCF908007D3AB5 /* LaunchScreen.storyboard in Resources */,
+				056380FD23E03A2700E355CC /* london_eye.jpg in Resources */,
+				0563812223E040C900E355CC /* droga.png in Resources */,
+				056380F423E0381300E355CC /* cropped_glowne.jpg in Resources */,
+				056380F623E038CE00E355CC /* poprawione.jpg in Resources */,
+				0568A0BF23DD12D1007D3AB5 /* portret_1.jpg in Resources */,
+				0563810923E03C3700E355CC /* zboze_pole.jpg in Resources */,
+				0563810B23E03C8000E355CC /* las_bambus.jpeg in Resources */,
+				0563810123E03A9100E355CC /* astro1.jpg in Resources */,
+				0563812323E040C900E355CC /* lisc.png in Resources */,
+				0563810323E03B6500E355CC /* portret_3.jpg in Resources */,
+				0563811523E03F5100E355CC /* astro3.jpeg in Resources */,
+				0563812623E040C900E355CC /* lotos.png in Resources */,
+				0563810F23E03E4100E355CC /* abstrakcja.jpeg in Resources */,
+				05118E4323E05FFB004B4E25 /* biale.png in Resources */,
+				0563810523E03BB900E355CC /* portret_4.jpg in Resources */,
 				0568A09323DCF908007D3AB5 /* Preview Assets.xcassets in Resources */,
+				0563811123E03EB000E355CC /* tower_bridge.jpg in Resources */,
+				0563812123E040C900E355CC /* swieca.png in Resources */,
+				0563812523E040C900E355CC /* drzewo.png in Resources */,
+				0563812423E040C900E355CC /* serce.png in Resources */,
+				0563812A23E04A5C00E355CC /* contact.png in Resources */,
+				056380FF23E03A5A00E355CC /* bokeh_roslina.jpg in Resources */,
+				0568A0C123DD12F3007D3AB5 /* portret_2.jpg in Resources */,
 				0568A09023DCF908007D3AB5 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -267,9 +445,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0563812823E043CF00E355CC /* Contact.swift in Sources */,
+				05A35E9423DFB43500BD2E59 /* SwiperView.swift in Sources */,
+				0563810723E03BEC00E355CC /* Nature.swift in Sources */,
+				0568A0BD23DD0F5E007D3AB5 /* Photos.swift in Sources */,
+				0563811923E0405800E355CC /* Painting.swift in Sources */,
+				057DDFA023DF10E600F13664 /* AboutMe.swift in Sources */,
+				0563810D23E03CCE00E355CC /* Architecture.swift in Sources */,
 				0568A08A23DCF906007D3AB5 /* AppDelegate.swift in Sources */,
 				0568A08C23DCF906007D3AB5 /* SceneDelegate.swift in Sources */,
-				0568A08E23DCF906007D3AB5 /* ContentView.swift in Sources */,
+				05A35E9023DFB36600BD2E59 /* Portraits.swift in Sources */,
+				0568A08E23DCF906007D3AB5 /* Home.swift in Sources */,
+				05A35E9223DFB39F00BD2E59 /* PageView.swift in Sources */,
+				0563811323E03F1F00E355CC /* Astrophotography.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
