@@ -10,7 +10,7 @@ import SwiftUI
 
 struct AboutMe: View {
     var body: some View {
-        ZStack(alignment: .top) {
+        ZStack() {
             Color.blue.opacity(0.25)
                 .edgesIgnoringSafeArea(.all)
             
@@ -18,7 +18,6 @@ struct AboutMe: View {
                 Image("poprawione")
                 .resizable()
                 .aspectRatio(contentMode: .fit)
-
                 .frame(maxWidth: 400)
                 .padding()
                 .shadow(radius: 10)
@@ -26,11 +25,9 @@ struct AboutMe: View {
                 Text("Fotografia")
                     .font(.title)
                     .fontWeight(.bold)
-                    
                 
                 Text("Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eu imperdiet magna. Quisque posuere ipsum at tellus volutpat, quis suscipit felis hendrerit. Duis tempus non ligula sit amet consequat. Mauris at sem eros. Fusce ut leo lectus. Mauris sit amet elementum justo, eget tristique quam. Nam at dolor at purus congue congue in eu dolor. Maecenas sit amet leo mauris. Nullam id nunc orci. Integer dapibus lorem a libero tempus, a pretium ligula porttitor. Suspendisse tellus tellus, ultricies vitae tempor nec, luctus in mi. Suspendisse suscipit ornare mollis. Pellentesque cursus mattis velit non tincidunt. Aliquam laoreet enim eros, quis sodales diam tempor vitae. Aenean sit amet gravida lectus.")
                     .font(.body)
-                    .multilineTextAlignment(.leading)
                     .padding()
                 
                 Text("Malarstwo")
@@ -40,7 +37,6 @@ struct AboutMe: View {
                 
                 Text("Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eu imperdiet magna. Quisque posuere ipsum at tellus volutpat, quis suscipit felis hendrerit. Duis tempus non ligula sit amet consequat. Mauris at sem eros. Fusce ut leo lectus. Mauris sit amet elementum justo, eget tristique quam. Nam at dolor at purus congue congue in eu dolor. Maecenas sit amet leo mauris. Nullam id nunc orci. Integer dapibus lorem a libero tempus, a pretium ligula porttitor. Suspendisse tellus tellus, ultricies vitae tempor nec, luctus in mi. Suspendisse suscipit ornare mollis. Pellentesque cursus mattis velit non tincidunt. Aliquam laoreet enim eros, quis sodales diam tempor vitae. Aenean sit amet gravida lectus.")
                     .font(.body)
-                    .multilineTextAlignment(.leading)
                     .padding()
                 
                 Text("Projekty")
@@ -50,7 +46,6 @@ struct AboutMe: View {
                 
                 Text("Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eu imperdiet magna. Quisque posuere ipsum at tellus volutpat, quis suscipit felis hendrerit. Duis tempus non ligula sit amet consequat. Mauris at sem eros. Fusce ut leo lectus. Mauris sit amet elementum justo, eget tristique quam. Nam at dolor at purus congue congue in eu dolor. Maecenas sit amet leo mauris. Nullam id nunc orci. Integer dapibus lorem a libero tempus, a pretium ligula porttitor. Suspendisse tellus tellus, ultricies vitae tempor nec, luctus in mi. Suspendisse suscipit ornare mollis. Pellentesque cursus mattis velit non tincidunt. Aliquam laoreet enim eros, quis sodales diam tempor vitae. Aenean sit amet gravida lectus.")
                     .font(.body)
-                    .multilineTextAlignment(.leading)
                     .padding()
             }
         } .navigationBarTitle("O mnie", displayMode: .inline)

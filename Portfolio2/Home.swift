@@ -11,116 +11,83 @@ import SwiftUI
 struct Home: View {
     var body: some View {
         NavigationView {
-            ZStack(alignment: .top) {
+            ZStack() {
                 Color.blue.opacity(0.25)
                     .edgesIgnoringSafeArea(.all)
                 
                 GeometryReader { proxy in
-                    
                     if proxy.size.width < proxy.size.height {
-                        VStack(alignment: .center){
+                        VStack(){
                             Image("glowne")
                                 .resizable()
                                 .aspectRatio(contentMode: .fit)
                                 .clipShape(Circle())
-                                .frame(maxWidth: 400)
+                                .frame(maxWidth: 500)
                                 .padding()
                                 .shadow(radius: 10)
                             
                             Text("Michał Kierzkowski")
                                 .font(.title)
-                                .multilineTextAlignment(.center)
+                                .padding(.bottom)
                             
                             NavigationLink(destination: AboutMe()) {
-                                Text("O mnie")
-                                    .frame(width: 300, height: 50, alignment: .center)
-                                    .background(Color.blue.opacity(0.5))
-                                    .foregroundColor(Color.white)
-                                    .cornerRadius(10)
-                                    .padding(.top)
+                                SectionButton(name: "O mnie")
                             }
                             
-                            NavigationLink(destination: Photos()) {
-                                Text("Fotografia")
-                                    .frame(width: 300, height: 50, alignment: .center)
-                                    .background(Color.blue.opacity(0.5))
-                                    .foregroundColor(Color.white)
-                                    .cornerRadius(10)
-                                    .padding(.top)
+                            NavigationLink(destination: Photography()) {
+                                SectionButton(name: "Fotografia")
                             }
                             
-                            NavigationLink(destination: Painting()) {
-                                Text("Malarstwo")
-                                    .frame(width: 300, height: 50, alignment: .center)
-                                    .background(Color.blue.opacity(0.5))
-                                    .foregroundColor(Color.white)
-                                    .cornerRadius(10)
-                                    .padding(.top)
+                            NavigationLink(destination: Gallery(galleryName: "Malarstwo", photoPages: [
+                                PageViewData(imageNamed: "swieca"),
+                                PageViewData(imageNamed: "lotos"),
+                                PageViewData(imageNamed: "serce")
+                            ])) {
+                                SectionButton(name: "Malarstwo")
                             }
                             
                             NavigationLink(destination: Contact()) {
-                                Text("Kontakt")
-                                    .frame(width: 300, height: 50, alignment: .center)
-                                    .background(Color.blue.opacity(0.5))
-                                    .foregroundColor(Color.white)
-                                    .cornerRadius(10)
-                                    .padding()
+                                SectionButton(name: "Kontakt")
                             }
                         }.frame(width: proxy.size.width)
+                        
                     } else {
-                        HStack(alignment: .center){
-                       VStack(){
-                           Image("glowne")
-                               .resizable()
-                               .aspectRatio(contentMode: .fit)
-                               .clipShape(Circle())
-                               .frame(maxWidth: 400)
-                               .padding()
-                               .shadow(radius: 10)
+                        HStack(){
+                            VStack(){
+                                Image("glowne")
+                                    .resizable()
+                                    .aspectRatio(contentMode: .fit)
+                                    .clipShape(Circle())
+                                    .frame(maxWidth: 500)
+                                    .padding()
+                                    .shadow(radius: 10)
                            
-                        }
-                        VStack(){
-                            Text("Michał Kierzkowski")
-                                .font(.title)
-                                .multilineTextAlignment(.center)
-                                .padding(.top)
+                            }
+                            VStack(){
+                                Text("Michał Kierzkowski")
+                                    .font(.title)
+                                    .padding(.vertical)
                            
-                           NavigationLink(destination: AboutMe()) {
-                               Text("O mnie")
-                                   .frame(width: 300, height: 50, alignment: .center)
-                                   .background(Color.blue.opacity(0.5))
-                                   .foregroundColor(Color.white)
-                                   .cornerRadius(10)
-                                   .padding(.top)
-                           }
+                                NavigationLink(destination: AboutMe()) {
+                                    SectionButton(name: "O mnie")
+                                }
                            
-                           NavigationLink(destination: Photos()) {
-                               Text("Fotografia")
-                                   .frame(width: 300, height: 50, alignment: .center)
-                                   .background(Color.blue.opacity(0.5))
-                                   .foregroundColor(Color.white)
-                                   .cornerRadius(10)
-                                   .padding(.top)
-                           }
+                                NavigationLink(destination: Photography()) {
+                                    SectionButton(name: "Fotografia")
+                                }
                            
-                           NavigationLink(destination: Painting()) {
-                               Text("Malarstwo")
-                                   .frame(width: 300, height: 50, alignment: .center)
-                                   .background(Color.blue.opacity(0.5))
-                                   .foregroundColor(Color.white)
-                                   .cornerRadius(10)
-                                   .padding(.top)
-                           }
+                                NavigationLink(destination: Gallery(galleryName: "Malarstwo", photoPages: [
+                                    PageViewData(imageNamed: "swieca"),
+                                    PageViewData(imageNamed: "lotos"),
+                                    PageViewData(imageNamed: "serce")
+                                ])) {
+                                    SectionButton(name: "Malarstwo")
+                                }
                            
-                           NavigationLink(destination: Contact()) {
-                               Text("Kontakt")
-                                   .frame(width: 300, height: 50, alignment: .center)
-                                   .background(Color.blue.opacity(0.5))
-                                   .foregroundColor(Color.white)
-                                   .cornerRadius(10)
-                                   .padding()
-                           }
-                        }
+                                NavigationLink(destination: Contact()) {
+                                    SectionButton(name: "Kontakt")
+                                }
+                            }.padding()
                         }.frame(width: proxy.size.width)
                     }
                 }
@@ -131,7 +98,7 @@ struct Home: View {
 
 struct Home_Previews: PreviewProvider {
     static var previews: some View {
-        ForEach(["iPhone SE", "iPhone 7", "iPhone 7 Plus", "iPhone 11", "iPhone 11 Pro Max", "iPad (7th generation)", "iPad Pro (11-inch)"], id: \.self) { deviceName in
+        ForEach(["iPhone 7", "iPhone 11", "iPad Pro (11-inch)"], id: \.self) { deviceName in
             Home()
                 .previewDevice(PreviewDevice(rawValue: deviceName))
                 .previewDisplayName(deviceName)

@@ -18,7 +18,6 @@ struct PageView: View {
     var body: some View {
         Image(viewData.imageNamed)
             .resizable()
-            .clipped()
             .scaledToFit()
     }
 }

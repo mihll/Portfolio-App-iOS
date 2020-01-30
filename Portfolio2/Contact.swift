@@ -25,25 +25,53 @@ struct Contact: View {
                     Text("Telefon")
                         .font(.body)
                         .fontWeight(.bold)
-                    Text("604 517 114")
-                        .padding(.bottom)
+                    Button(action: {
+                        let strNumber = "604517114"
+                        let tel = "tel://"
+                        let formattedString = tel + strNumber
+                        let url = URL(string: formattedString)!
+                        UIApplication.shared.open(url)
+                    }) {
+                        Text("604 517 114")
+                            .padding(.bottom)
+                    }
                     
                     Text("Email")
                         .fontWeight(.bold)
+                    Button(action: {
+                        let strNumber = "kierzkowski89@gmail.com"
+                        let tel = "mailto:"
+                        let formattedString = tel + strNumber
+                        let url = URL(string: formattedString)!
+                        UIApplication.shared.open(url)
+                    }) {
                     Text("kierzkowski89@gmail.com")
                         .padding(.bottom)
+                    }
 
                     
                     Text("Instagram")
                         .fontWeight(.bold)
+                    Button(action: {
+                        let formattedString = "instagram://user?username=mihll"
+                        let url = URL(string: formattedString)!
+                        UIApplication.shared.open(url)
+                    }){
                     Text("@mihll")
                         .padding(.bottom)
+                    }
 
                     
                     Text("Twitter")
                         .fontWeight(.bold)
-                    Text("@mihll")
+                    Button(action: {
+                        let formattedString = "https://twitter.com/mihll98"
+                        let url = URL(string: formattedString)!
+                        UIApplication.shared.open(url)
+                    }){
+                    Text("@mihll98")
                         .padding(.bottom)
+                    }
                 }
             }
             
